@@ -1,0 +1,54 @@
+:root{
+    --light-blue-color: #D5E1EF;
+    --blue-color: #1F314F;
+    --light-ash-color: #68778D;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--light-blue-color);
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    width: 320px;
+    height: 499px;
+    border-radius: 20px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+    color: var(--blue-color);
+}
+
+p{
+    font-size: 17px;
+    font-weight:400;
+    text-align: center;
+    color: var(--light-ash-color);
+}
+
+
