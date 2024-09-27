@@ -53,3 +53,13 @@ const content = {
     `
 };
 
+// Function to render content dynamically
+function renderContent() {
+    document.getElementById('why-choose-us').innerHTML = content.whyChooseUs;
+    document.getElementById('special-offers').innerHTML = content.specialOffers;
+    document.getElementById('reviews').innerHTML = content.reviews;
+    document.getElementById('recent-posts').innerHTML = content.recentPosts;
+}
+
+// Call the function to render the content when the page loads
+renderContent();
