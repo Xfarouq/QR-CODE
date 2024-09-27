@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+// document.addEventListener("DOMContentLoaded", function() {
     const menuToggle = document.getElementById('menuToggle');
     const closeMenu = document.getElementById('closeMenu');
     const navMenu = document.getElementById('navMenu');
@@ -12,4 +12,4 @@ document.addEventListener("DOMContentLoaded", function() {
             navMenu.classList.remove('active');
         });
     }
-});
+// });
