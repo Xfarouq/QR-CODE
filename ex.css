@@ -1,0 +1,28 @@
+section {
+    margin-bottom: 30px;
+    background-color: blue;
+}
+
+.post, .review, .offer, .why-us {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+.offer{
+    background-color: red;
+}
