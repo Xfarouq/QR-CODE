@@ -5,7 +5,7 @@ async function start() {
             throw new Error('Bad network');
         }
         const result = await data.json();
-        console.log(result.time); // Log result.time instead of data.time
+        console.log(result); // Log result.time instead of data.time
     } catch (error) {
         console.log('ERROR: ', error);
     }
